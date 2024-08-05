@@ -1,0 +1,33 @@
+.clients {
+    .section-heading {
+        max-width: 200px;
+        margin-bottom: 44px;
+        font-size: 36px;
+    }
+}
+
+
+
+.clients-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    img {
+        display: block;
+        width: 170px;
+    }
+}
+
+@media (max-width:768px) {
+    .clients {
+        .section-heading {
+            font-size: 30px;
+            text-align: center;
+            margin: auto;
+        }
+    }
+}

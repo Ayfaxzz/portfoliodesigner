@@ -1,0 +1,61 @@
+.contact {
+
+    .section-heading {
+        max-width: 512px;
+        width: 100%;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+}
+
+.contact-link {
+    color: #8643DC;
+    font-size: 24px;
+}
+.contact-form {
+
+}
+.contact-input {
+    border: 0;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #DAD2E3;
+    margin-bottom: 45px;
+    outline: 0;
+    max-width: 1110px;
+    width: 100%;
+}
+.contact-btn-box {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-btn-boxes {
+    gap: 16px;
+    display: flex;
+    align-items: center;
+}
+.primary-btn {
+    @include primary-btn;
+    margin-bottom: 100px;
+}
+.contact-btn {
+    display: block;
+    background-image: url(../../images/teenyicons_attach-solid.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 18px;
+    height: 18px;
+    border: none;
+    background-color: transparent;
+    &:last-child {
+        display: block;
+    background-image: url(../../images/arrow-right-short.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    }
+}   

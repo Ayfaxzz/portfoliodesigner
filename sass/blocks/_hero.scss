@@ -1,0 +1,71 @@
+.hero {
+  padding: 58px 0 268px 0;  
+}
+.hero-subtitle {
+    color: #666666;
+    margin-bottom: 0;
+    font-size: 24px;
+}
+.hero-heading {
+    margin-top: 0;
+    color: #25202f;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.job-title {
+    color: #25202f;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.hero-btn {
+    @include primary-btn;
+}
+
+@media (max-width:900px) {
+    
+    .hero-subtitle {
+        font-size: 20px;
+    }
+    .hero-heading {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:768px) {
+    .hero-subtitle {
+        display: block;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 320px;
+    }
+    .hero-heading {
+        text-align: center;
+    }
+
+    .job-title {
+        text-align: center;
+    }
+
+    .hero-btn {
+        margin: auto;
+    }
+}
+@media (max-width:400px) {
+    .hero-subtitle {
+        display: block;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 320px;
+    }
+    .hero-heading {
+        font-size: 30px;
+    }
+
+    .job-title {
+        font-size: 22px;
+    }
+
+    .hero-btn {
+        margin: auto;
+    }
+}

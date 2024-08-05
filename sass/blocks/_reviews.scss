@@ -1,0 +1,59 @@
+.reviews {
+    padding: 50px 0 67px 0;
+    background-image: url(../images/test1.png), url(../images/test2.png), url(../images/test3.png), url(../images/test4.png);
+    background-repeat: no-repeat;
+    background-position: 186px 264px, calc(100% - 186px) 264px, calc(100% - 320px) 534px, 322px 534px;
+    margin-bottom: 102px;
+}
+
+.reviews-text {
+    max-width: 569px;
+    line-height: 32px;
+    margin: 0 auto;
+    color: #636066;
+    text-align: center;
+    margin-bottom: 50px;
+    &::before {
+        content: "";
+        display: block;
+        width: 42px;
+        height: 42px;
+        background-image: url(../images/blockquote.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+}
+.review-img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.review-name {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.review-job {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 46px;
+}
+.review-btn-box {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.review-btn {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #debad9;
+    &:first-child {
+        background-color: #8643dc;
+    }
+}
